@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-fundo: #100F0F;
+    --cor-fonte: #FCFBFA;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+.container{
+    background-image: url("./assets/imgfundo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 120vh;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho_logo{
+    margin-top: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.cabecalho_botao{
+    background-color: transparent;
+    border: none;
+    color: var(--cor-fonte);
+    font-size: 20px;
+    padding: 17px;
+    font-family: 'Archivo', sans-serif;
+    cursor: pointer;
+}
+
+
+.home{
+    display: flex;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start; 
+    justify-content: flex-end;
+    height: 80vh;
+    margin-left: 4rem;
+    width: 10%;
+}
+
+.social_rede{
+    padding: 0.4rem;
+}
+
+.ouvir{
+    width: 50%;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    margin-left: 13rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ouvir_album{
+    display: flex;
+    flex-direction: column;
+    gap: 0.563rem;
+}
+
+.ouvir_titulo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.ouvir_texto{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.ouvir_texto strong{
+    font-size: 16px;
+    padding-right: 0.5rem;
+    font-weight: 500;
+}
+
+.sobre{
+    height: 90vh;
+    display: flex;
+}
+
+.sobre_img{
+    align-self: flex-end;
+    margin-left: 5.625rem;
+}
+
+.div_sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_sobre{
+    align-self: center;
+    padding-top: 35rem;
+
+}
+
+.sobre_texto{
+    padding-top: 1.188rem;
+    width: 70%;
+    align-self: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discografia{
+    height: 90vh;
+}
+
+.discografia_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.discografia_fundo{
+    background-color: #1E1D1D;
+    width: 1368px;
+    height: 589px;
+    border-radius: 110px;
+    margin: auto;
+    flex-shrink: 0;
+    margin-top: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discografia_rede{
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mais{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    gap: 5.375rem;
+}
+
+.mais_divlogo{
+    align-self: flex-start;
+    margin-top: 1rem;
+
+    width: 43%;
+    margin-left: 5.688rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mais_divimg_img{
+
+    align-self: flex-start;
+    margin-right: 5.625rem;
+}
+
+.mais_texto{
+    padding-top: 2.625rem;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fotos{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+.fotos_div{
+    width: 1357px;
+    height: 347px;
+    flex-shrink: 0;
+    border-radius: 46px;
+    background: #1E1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    height: 12vh;
+    flex-shrink: 0;
+    background: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape_texto{
+    padding: 0.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
